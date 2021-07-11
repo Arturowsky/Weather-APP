@@ -494,7 +494,7 @@ class Weather2 extends React.Component {
     
       
     </div>
-    <footer><div><img src={git} alt="" /> <a href="#">arturowsky 2021</a></div>
+    <footer><div><img src={git} alt="" /> <a href="#">arturowsky</a></div>
       
      
     </footer>
