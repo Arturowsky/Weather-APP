@@ -437,12 +437,7 @@ class Weather2 extends React.Component {
           <li>
             <img src={moisture} alt="" /> humidity {humidity} %
           </li>
-          <li>
-            <img src={wind} alt="" /> wind {windy} m/s
-          </li>
-          <li>
-            <img src={pressure} alt="" /> pressure {pressureS} hPa
-          </li>
+          
           <li>
             <img src={visibility} alt="" /> visibility {visibile} m
           </li>
@@ -459,15 +454,15 @@ class Weather2 extends React.Component {
             <img src={lat} alt="" /> latitude {lati}
           </li>
         </ul>
-        {/* <h3><img src={arrow} alt="" /> Timezone</h3>
+        <h3><img src={arrow} alt="" /> Weather</h3>
         <ul>
-          <li>
-            <img src={lon} alt="" /> longitude - 122.54
+        <li>
+            <img src={pressure} alt="" /> pressure {pressureS} hPa
           </li>
           <li>
-            <img src={lat} alt="" /> latitude 45.24
+            <img src={wind} alt="" /> wind {windy} m/s
           </li>
-        </ul> */}
+        </ul>
       </div>
     </div>
     <div className="daily-forecast-title"><h3><img src={arrow} alt="" /> Daily forecast for next {WeekLong} days</h3></div>
